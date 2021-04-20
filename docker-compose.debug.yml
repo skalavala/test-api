@@ -3,13 +3,13 @@
 version: '3.4'
 
 services:
-  testaspnetcorewebapi:
-    image: testaspnetcorewebapi
+  testwebapi:
+    image: testwebapi
     build:
       context: .
       dockerfile: ./Dockerfile
     ports:
-      - 80
+      - 8080
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     volumes:

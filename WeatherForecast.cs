@@ -1,6 +1,6 @@
 using System;
 
-namespace TestAspNetCoreWebApi
+namespace test_webapi
 {
     public class WeatherForecast
     {
